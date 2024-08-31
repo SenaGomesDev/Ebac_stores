@@ -148,7 +148,7 @@ footer {
     font-size: 18px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 639px)  {
+@media screen and (min-width: 370px) and (max-width: 639px)  {
 
 
     .container {

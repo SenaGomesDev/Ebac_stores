@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1922px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+}
+
+.menu li {
+    list-style: none;
+    align-items: center;
+}
+
+.menu li a {
+    margin: 0 20px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.menu li a:hover {
+    border-bottom: 4px solid black;
+}
+
+section h2 {
+    margin: 20px auto;
+    margin-bottom: 30px;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+#sobrealoja li {
+    display: block;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#sobrealoja h2 {
+    margin-left: 30px;
+}
+
+#sobrealoja img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px; 
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sobrealoja li p {
+    margin-left: 20px;
+}
+
+
+#produtos {
+    padding: 5px;
+    background-color: #f4f4f4;
+}
+
+#produtos h2 {
+    margin-left: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    gap: 1%;
+    list-style: none;
+    padding: 0;
+}
+
+.produto-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.produto-item li {
+    list-style: none;
+}
+
+
+.produto-item img {
+    width: 180px;
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+.produto-item p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.produto-item button {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.produto-item button:hover {
+    background-color: green;
+}
+
+footer {
+    background-color: rebeccapurple;
+    padding: 20px 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 639px)  {
+
+
+    .container {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        background-color: rebeccapurple;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 10px;
+        border-bottom: 2px solid black;
+    }
+
+    header h1 {
+        margin-left: 10px;
+    }
+
+    .menu li a {
+        margin: 0 20px;
+        color: #fff;
+        font-size: 11px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 20px;
+    }
+
+    .menu li a:hover {
+        border-bottom: 2px solid black;
+    }
+
+    section h2 {
+        margin: 40px 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        border-bottom: 2px solid black;
+        display: block;
+    }
+
+    #sobrealoja li {
+        display: block;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    #sobrealoja img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px; 
+        border: 2px solid rebeccapurple;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #produtos {
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+    .grid-container {
+        display: block;
+    }
+
+    footer {
+        background-color: rebeccapurple;
+        padding: 20px 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    
+        .container {
+        max-width: 1921px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        width: 100%;
+        background-color: rebeccapurple;
+        display: flex;
+        justify-content: space-around;
+        color: #fff;
+        align-items: center;
+        padding: 15px 0;
+        font-size: 22px;
+        border-bottom: 3px solid black;
+    }  
+    
+    header h1 {
+        margin-left: 20px;
+    }
+
+    .menu li {
+        list-style: none;
+        align-items: center;
+    }
+    
+    .menu li a {
+        margin: 0 20px;
+        color: #fff;
+        font-size: 24px;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px 20px;
+    }
+    
+    .menu li a:hover {
+        border-bottom: 4px solid black;
+    }
+
+    section h2 {
+        margin: 50px 10px;
+        margin-bottom: 30px;
+        font-size: 2em;
+        border-bottom: 2px solid black;
+        display: block;
+    }
+    
+    #sobrealoja li {
+        display: block;
+        font-size: 1,5em;
+        margin-left: 20px;
+    }
+
+    #sobrealoja h2 {
+        margin-left: 30px;
+    }
+    
+    #sobrealoja img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px; 
+        border: 2px solid rebeccapurple;
+        border-radius: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: rebeccapurple;
+        padding: 20px 20px;
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+    }
+
+}

@@ -233,6 +233,13 @@ footer {
         margin: 0 auto;
     }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 48.50%);
+        gap: 1%;
+        list-style: none;
+        padding: 0;
+    }
     header {
         width: 100%;
         background-color: rebeccapurple;
